@@ -1,0 +1,33 @@
+{
+  "name": "Lesson-1",
+  "version": "1.0.0",
+  "description": "First lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salabaykin/lesson-1.git"
+  },
+  "author": "Evgeny Salabaykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salabaykin/lesson-1.git/issues"
+  },
+  "homepage": "https://github.com/Salabaykin/lesson-1.git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
