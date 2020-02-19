@@ -21,7 +21,9 @@ const startButton = document.querySelector('.start-button'),
       endButton = document.querySelector('.end-button'),
       total = document.querySelector('.total'),
       fastRange = document.querySelector('.fast-range'),
-      totalPriceSum = document.querySelector('.total_price__sum');
+      totalPriceSum = document.querySelector('.total_price__sum'),
+      mobileTemplatesCheckbox = document.querySelector('.mobileTemplatesCheckbox'),
+      adaptCheckbox = document.querySelector('.adaptCheckbox');
 
 function showElem(elem) {
   elem.style.display = 'block';
@@ -85,10 +87,10 @@ function handlerCallBackForm(event) {
     priceCalculation(target);
   }
 
-  if (adapt.checked) {
-    mobileTemplates.disabled = false;
+  if (adaptCheckbox.checked) {
+    mobileTemplatesCheckbox.disabled = true;
   } else {
-    mobileTemplates.disabled = true;
+    mobileTemplatesCheckbox.disabled = false;
   }
 
 }
